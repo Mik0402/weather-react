@@ -1,6 +1,5 @@
-import React {useState} from "react";
+import React from "react";
 import "./styles.css";
-import axios from "axios";
 
 export default function Weather() {
   let weatherData = {
@@ -13,6 +12,7 @@ export default function Weather() {
     wind: 10,
   };
   return (
+    <div>
     <div className="Weather">
       <form className="mb-3">
         <div className="row">
@@ -59,6 +59,9 @@ export default function Weather() {
           </ul>
         </div>
       </div>
+     
+    </div>
+    <p>This was created by Mikaela Lammers and opensourced on <a href="https://github.com/Mik0402/weather-react">GitHub.</a></p>
     </div>
   );
 }
