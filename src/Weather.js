@@ -37,7 +37,6 @@ export default function Weather(props) {
 
   if (weatherData.ready) {
     return (
-      <div>
       <div className="Weather">
         <form className="mb-3" onSubmit={handleSubmit}>
           <div className="row">
@@ -60,8 +59,6 @@ export default function Weather(props) {
           </div>
         </form>
         <WeatherInfo data={weatherData} />
-      </div>
-      <p>This was created by Mikaela Lammers and opensourced on <a href="https://github.com/Mik0402/weather-react">GitHub.</a></p>
       </div>
     );
   } else {

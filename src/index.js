@@ -11,7 +11,8 @@ const root = createRoot(rootElement);
 root.render(
   <StrictMode>
     <div className="App">
-      <Weather />
+      <Weather defaultCity="New York" />
+      <p>This project was coded by <a href="https://mikaela-lammers-developer.netlify.app/">Mikaela Lammers</a> and is <a href="https://github.com/Mik0402/weather-react">open-sourced on GitHub</a> and <a href="https://app.netlify.com/sites/playful-pony-01d4de/deploys">hosted on Netlify.</a></p>
     </div>
   </StrictMode>
 );
