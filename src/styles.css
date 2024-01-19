@@ -18,9 +18,9 @@
 }
 .Weather .weather-temperature .description {
   font-size: 20px;
-  margin: 0 15px;
+  margin: 5px 15px;
   position: relative;
-  top: -20px;
+  top: -15px;
 }
 
 .Weather .weather-temperature strong {
@@ -29,12 +29,18 @@
   font-size: 64px;
   line-height: 1;
   font-weight: 400;
+  margin: 0 0 0 10px;
 }
 
 .Weather .weather-temperature .units {
   position: relative;
   font-size: 16px;
-  top: -34px;
+  top: -30px;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 .Weather .weather-temperature .active {
