@@ -9,6 +9,7 @@ export default function WeatherInfo(props) {
         <div className="overview">
         <h1>{props.data.city}</h1>
         <h2><FormattedDate date={props.data.date} /></h2>
+        <div className="description text-capitalize">{props.data.description}</div>
       </div>
       <div className="row">
         <div className="col-8 clearfix weather-temperature">
@@ -21,7 +22,6 @@ export default function WeatherInfo(props) {
               <WeatherTemperature celsius={props.data.temperature} />
             </div>
             </div>
-            <div className="description">{props.data.description}</div>
         </div>
         <div className="col-4">
           <ul>

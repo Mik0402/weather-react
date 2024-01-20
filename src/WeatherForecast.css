@@ -1,5 +1,9 @@
 .WeatherForecast {
     text-align: center;
+    margin-top: 15px;
+    background: #eaeeff;
+    padding: 10px;
+    border-radius: 5px;
 }
 .WeatherForecast-day {
     margin-bottom: 5px;
