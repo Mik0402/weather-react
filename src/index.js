@@ -14,7 +14,7 @@ root.render(
     <div className="container">
       <Weather defaultCity="New York" />
       <div>
-      <p>This project was coded by <a href="https://mikaela-lammers-developer.netlify.app/">Mikaela Lammers</a> and is <a href="https://github.com/Mik0402/weather-react">open-sourced on GitHub</a> and <a href="https://app.netlify.com/sites/playful-pony-01d4de/deploys">hosted on Netlify.</a></p>
+      <p>This project was coded by <a href="https://mikaela-lammers-developer.netlify.app/" target="_blank" rel="noopener noreferrer">Mikaela Lammers</a> and is <a href="https://github.com/Mik0402/weather-react" target="_blank" rel="noopener noreferrer">open-sourced on GitHub</a> and <a href="https://app.netlify.com/sites/playful-pony-01d4de/deploys" target="_blank" rel="noopener noreferrer">hosted on Netlify.</a></p>
       </div>
     </div>
     </div>
